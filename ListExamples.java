@@ -18,7 +18,6 @@ class ListExamples {
     return result;
   }
 
-
   // Takes two sorted list of strings (so "a" appears before "b" and so on),
   // and return a new list that has all the strings in both list in sorted order.
   static List<String> merge(List<String> list1, List<String> list2) {
@@ -34,7 +33,8 @@ class ListExamples {
         index2 += 1;
       }
     }
-    while(index1 < list2.size()) {
+    //The error is that it should be list1.size()
+    while(index1 < list1.size()) {
       result.add(list1.get(index1));
       index1 += 1;
     }
