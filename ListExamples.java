@@ -34,7 +34,7 @@ class ListExamples {
       }
     }
     
-    while(index1 < list2.size()) {
+    while(index1 < list1.size()) {
       result.add(list1.get(index1));
       index1 += 1;
     }
