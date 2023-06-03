@@ -33,8 +33,8 @@ class ListExamples {
         index2 += 1;
       }
     }
-    //The error is that it should be list1.size()
-    while(index1 < list1.size()) {
+    
+    while(index1 < list2.size()) {
       result.add(list1.get(index1));
       index1 += 1;
     }
